@@ -1,0 +1,48 @@
+{
+  "name": "grunt-kommando",
+  "description": "(Runs Uxebu's test suite runner Kommando.)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bogdanbiv/grunt-kommando",
+  "author": {
+    "name": "Bogdan Bivolaru",
+    "email": "osbiv@yahoo.co.uk",
+    "url": "https://github.com/bogdanbiv/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bogdanbiv/grunt-kommando.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bogdanbiv/grunt-kommando/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bogdanbiv/grunt-kommando/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt kommando"
+  },
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "lodash": "~2.4.1",
+    "kommando": "~1.0.0",
+    "chai": "~1.9.2",
+    "chai-as-promised": "~4.1.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin", "kommando", "test", "testing", "webdriver", "webdriverjs", "selenium"
+  ]
+}
