@@ -24,6 +24,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
+  "main": "tasks/grunt-kommando.js",
   "scripts": {
     "test": "grunt kommando"
   },
