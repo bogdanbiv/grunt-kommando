@@ -30,10 +30,14 @@ module.exports = function(grunt) {
         captureConsole: true,
     };
     var options = this.options(plugin_defaults);
+    var tests = this.data.tests;
     lodash.defaults(this.data, options);
     grunt.log.writeln(this.target + ': ' + JSON.stringify(this.data));
     grunt.log.writeln('Opts: ' + JSON.stringify(options));
-
+    tests = tests.map(function (currentValue) {
+        return path.resolve(currentValue);
+    });
+    this.data.tests = tests;
     runs = [run.bind(null, this.data)];
 
     async.series(runs, function(error, results) {
