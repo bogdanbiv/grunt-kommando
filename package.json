@@ -41,9 +41,15 @@
     "grunt-contrib-nodeunit": "~0.4.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin", "kommando", "test", "testing", "webdriver", "webdriverjs", "selenium"
+    "gruntplugin",
+    "kommando",
+    "test",
+    "testing",
+    "webdriver",
+    "webdriverjs",
+    "selenium"
   ]
 }
